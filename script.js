@@ -2,9 +2,9 @@
 
 // Variables y elementos del DOM
 const productos = [
-    { id: 1, nombre: "Producto 1", precio: 100 },
-    { id: 2, nombre: "Producto 2", precio: 150 },
-    { id: 3, nombre: "Producto 3", precio: 200 }
+    { id: 1, nombre: "Producto 1", precio: 10000 },
+    { id: 2, nombre: "Producto 2", precio: 15000 },
+    { id: 3, nombre: "Producto 3", precio: 25000 }
 ];
 
 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
